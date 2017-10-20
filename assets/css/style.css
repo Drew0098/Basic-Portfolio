@@ -1,0 +1,7 @@
+header h1 {
+	float:left;
+}
+header nav {
+	float:right;
+	margin-top:66px;
+}
