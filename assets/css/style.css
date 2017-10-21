@@ -1,3 +1,90 @@
-.heading {
-	background-color: blue;
+body {
+	margin:0px;
+	padding: 0px;
+}
+header {
+	margin: 0px;
+	padding: 0px;
+	background-color: #ffffff;
+	border-color: #cccccc;
+}
+h1 {
+	background-color: #4aaaa5;
+	background-size: 200px 200px;
+	background-repeat: no-repeat;
+	font-family: "georgia";
+	margin-left: 75px;
+	color: #ffffff;
+	width:400px;
+	font-size: 300%;
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+h2 {
+	color: #4aaaa5;
+	font-family: "georgia";
+	margin-left:25px;
+}
+h3 {
+	color: #4aaaa5;
+	font-family: "georgia";
+	margin-left: 25px;
+}
+nav {
+	float:right;
+	font-family: "arial";
+	color: #ffffff;
+}
+#background {
+	background-image: url(asanoha-400px.png);
+	border-color: #dddddd
+
+}
+footer {
+	background-color: #666666;
+	text-align: center;
+	font-family: "arial";
+	border-width: 40px;
+	height: 40px;
+}
+#content {
+	width: 960px;
+	border: 200px;
+	margin: 100px;
+}
+#contact {
+	width: 650px;
+	margin-left: 75px;
+	background-color: #ffffff;
+	font-family: "arial";
+	padding:25px;
+}
+#connect {
+	width:270px;
+	height:150px;
+	background-color: #ffffff;
+}
+input {
+	text-align: left;
+	width:600px;
+}
+form {
+	margin-left:25px;
+}
+textarea {
+	width:600px;
+}
+#submit {
+	width:80px;
+	height:35px;
+	background-color: #4aaaa5;
+}
+#linkedin {
+	margin-left: 25px;
+}
+#github {
+	margin-left: 5px;
+}
+#stackoverflow {
+	margin-left: 5px;
 }
