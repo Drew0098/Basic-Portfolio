@@ -15,6 +15,7 @@ header {
 	margin-left: 50px;
 	width:960px;
 	height: 80px;
+	border-bottom: solid 2px #afafaf;
 }
 h1 {
 	background-color: #4aaaa5;
@@ -23,6 +24,7 @@ h1 {
 	font-family: "georgia";
 	color: #ffffff;
 	width:400px;
+	height:56px;
 	font-size: 300%;
 	padding-top: 12px;
 	padding-bottom: 12px;
@@ -34,11 +36,17 @@ h2 {
 	color: #4aaaa5;
 	font-family: "georgia";
 	margin-left:25px;
+	border-bottom: solid 2px #afafaf;
+	width: 600px;
+	padding-bottom: 10px;
 }
 h3 {
 	color: #4aaaa5;
 	font-family: "georgia";
 	margin-left: 25px;
+	border-bottom: solid 2px #afafaf;
+	padding-bottom: 10px;
+	width: 168px;
 }
 nav {
 	text-decoration: none;
@@ -72,6 +80,7 @@ ul {
 	border-width: 40px;
 	height: 40px;
 	margin-top: 50px;
+	border-top: solid 8px #4aaaa5;
 }
 footer {
 	text-align: center;
@@ -85,8 +94,25 @@ footer {
 	width: 960px;
 	padding-left: 100px;
 }
+#maincontentindex {
+	width: 650px;
+	height: 500px;
+	background-color: #ffffff;
+	font-family: "arial";
+	float: left;
+	padding-bottom:25px;
+}
 #maincontent {
 	width: 650px;
+	height: 675px;
+	background-color: #ffffff;
+	font-family: "arial";
+	float: left;
+	padding-bottom:25px;
+}
+#maincontentcontact {
+	width: 650px;
+	height: 500px;
 	background-color: #ffffff;
 	font-family: "arial";
 	float: left;
@@ -130,5 +156,65 @@ textarea {
 }
 p {
 	margin-left: 25px;
-	margin-right:25px;
+	margin-right: 25px;
+}
+#me {
+	float:left;
+	height: 175px;
+	width: 175px;
+	margin-left: 25px;
+	margin-right: 20px;
+	margin-bottom: 5px;
+}
+#bmx {
+	width: 214px;
+	height: 173px;
+}
+#technology {
+	width: 214px;
+	height: 173px;
+}
+#food {
+	width: 214px;
+	height: 173px;
+}
+#poi {
+	width: 214px;
+	height: 173px;
+}
+#longboarding {
+	width: 214px;
+	height: 173px;
+}
+#videogames {
+	width: 214px;
+	height: 173px;
+}
+.images {
+	width: 214px;
+	height: 173px;
+	margin-left: 25px;
+	margin-top: 25px;
+	float:left;
+	position: relative;
+}
+.imagesright {
+	width: 214px;
+	height: 173px;
+	margin-left: 150px;
+	margin-top: 25px;
+	float:left;
+	position: relative;
+}
+h4 {
+	background: #4aaaa5;
+	color: #ffffff;
+	margin:0;
+	padding:0;
+	text-align: center;
+	position: absolute;
+	bottom:8px;
+	width:100%;
+	height:24px;
+	padding-top:6px;
 }
